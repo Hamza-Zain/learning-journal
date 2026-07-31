@@ -15,8 +15,7 @@ The purpose of this repository is to:
 - Document meaningful learning experiences.
 - Record lessons learned and technical insights.
 - Capture mistakes and their solutions.
-- Track progress throughout the bootcamp.
-- Build a personal knowledge base for future reference.
+- Track my progress.
 
 ---
 
@@ -35,6 +34,7 @@ learning-journal/
 │   ├── 2026-07-18 — Understanding Professional Git Workflows.md
 │   ├── 2026-07-23 — Learning Through Git Mistakes.md
 │   └── 2026-07-30 — Thinking Like a Software Team.md
+│   └── ...
 ├── LICENSE
 ├── README.md
 └── templates

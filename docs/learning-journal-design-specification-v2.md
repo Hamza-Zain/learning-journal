@@ -32,13 +32,22 @@ Public.
 
 ```
 learning-journal/
+├── assets
+│   └── images
+│       ├── logo-bricks-technologies.png
+│       └── logo-bricks-technologies-with-name.png
+├── docs
+│   └── learning-journal-design-specification-v1.md
+├── entries
+│   ├── 2026-07-14 — Starting My Learning Journal.md
+│   ├── 2026-07-18 — Understanding Professional Git Workflows.md
+│   ├── 2026-07-23 — Learning Through Git Mistakes.md
+│   └── 2026-07-30 — Thinking Like a Software Team.md
+│   └── ...
+├── LICENSE
 ├── README.md
-├── templates/
-│   └── learning-journal-entry-template.md
-│   └── learning-journal-entry-example.md
-├── 2026-07-28-starting-my-learning-journal.md
-├── 2026-07-30-understanding-git-commits.md
-└── ...
+└── templates
+    └── learning-journal-entry-template.md
 ```
 
 ---
@@ -62,7 +71,7 @@ After creating or updating a journal entry:
 ```
 git status
 git add .
-git commit -m "Add learning journal entry: <entry-title>"
+git commit -m "Add entry: <entry-title>"
 git push origin main
 ```
 
@@ -71,7 +80,7 @@ Replace `<entry-title>` with a short description of the journal entry.
 Example:
 
 ```
-git commit -m "Add learning journal entry: understanding git commits"
+git commit -m "Add entry: understanding git commits"
 ```
 
 ---
@@ -83,43 +92,43 @@ Commit messages should clearly describe the change being made.
 ### Adding a New Journal Entry
 
 ```
-Add learning journal entry: <entry-title>
+Add entry: <entry-title>
 ```
 
 Example:
 
 ```
-Add learning journal entry: linux file permissions
+Add entry: linux file permissions
 ```
 
 ### Updating an Existing Journal Entry
 
 ```
-Update learning journal entry: <entry-title>
+Update entry: <entry-title>
 ```
 
 Example:
 
 ```
-Update learning journal entry: understanding docker images
+Update entry: understanding docker images
 ```
 
 ### Updating the Journal Template
 
 ```
-Update journal entry template
+Update entry template
 ```
 
 ### Updating the README
 
 ```
-Update learning journal README
+Update README
 ```
 
 ### Updating Repository Documentation
 
 ```
-Update learning journal documentation
+Update documentation
 ```
 
 ---
@@ -127,15 +136,13 @@ Update learning journal documentation
 # 4. Journal Entry Naming Convention
 
 ```
-YYYY-MM-DD-short-descriptive-title.md
+YYYY-MM-DD — Short Descriptive Title.md
 ```
 
 Examples:
 
 ```
-2026-07-28-starting-my-learning-journal.md
-2026-08-02-my-first-merge-conflict.md
-2026-09-10-understanding-docker-images.md
+2026-07-14 — Starting My Learning Journal.md
 ```
 
 ---
