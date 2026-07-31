@@ -1,6 +1,6 @@
 # Learning Journal
 
-A personal engineering notebook documenting my learning journey throughout the Cloud Engineering and DevOps Bootcamp.
+A personal space to document my journey to becoming a Cloud and DevOps Engineer.
 This repository is a collection of lessons learned, technical insights, mistakes, solutions, and milestones encountered while studying Cloud Engineering, DevOps, Linux, AWS, Docker, Kubernetes, Terraform, CI/CD, and related technologies.
 Rather than serving as a copy of course material, this journal captures meaningful learning experiences in my own words to reinforce understanding and provide a valuable reference for the future.
 
@@ -22,11 +22,15 @@ The purpose of this repository is to:
 
 ```text
 learning-journal/
+├── assets
+│   └── images
+│       ├── logo-bricks-technologies.png
+│       └── logo-bricks-technologies-with-name.png
+├── learning-journal-design-specification-v1.md
 ├── README.md
-├── templates/
-│ └── journal-entry-template.md
-├── YYYY-MM-DD-entry-title.md
-├── YYYY-MM-DD-entry-title.md
+└── templates
+    └── learning-journal-entry-template.md
+│
 └── ...
 ```
 
