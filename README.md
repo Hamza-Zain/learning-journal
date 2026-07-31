@@ -26,12 +26,17 @@ learning-journal/
 │   └── images
 │       ├── logo-bricks-technologies.png
 │       └── logo-bricks-technologies-with-name.png
-├── learning-journal-design-specification-v1.md
+├── docs
+│   └── learning-journal-design-specification-v1.md
+├── entries
+│   ├── 2026-07-14 — Starting My Learning Journal.md
+│   ├── 2026-07-18 — Understanding Professional Git Workflows.md
+│   ├── 2026-07-23 — Learning Through Git Mistakes.md
+│   └── 2026-07-30 — Thinking Like a Software Team.md
+├── LICENSE
 ├── README.md
 └── templates
     └── learning-journal-entry-template.md
-│
-└── ...
 ```
 
 ---
@@ -41,13 +46,13 @@ learning-journal/
 Each journal entry is stored as an individual Markdown file using the following naming convention:
 
 ```text
-YYYY-MM-DD-short-descriptive-title.md
+YYYY-MM-DD — Short Descriptive Title.md
 ```
 
 Example:
 
 ```text
-2026-07-31-starting-my-learning-journal.md
+2026-07-14 — Starting My Learning Journal.md
 ```
 
 Each entry is created from the reusable journal entry template.
