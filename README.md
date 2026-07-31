@@ -1,7 +1,9 @@
 # Learning Journal
 
 A personal space to document my journey to becoming a Cloud and DevOps Engineer.
+
 This repository is a collection of lessons learned, technical insights, mistakes, solutions, and milestones encountered while studying Cloud Engineering, DevOps, Linux, AWS, Docker, Kubernetes, Terraform, CI/CD, and related technologies.
+
 Rather than serving as a copy of course material, this journal captures meaningful learning experiences in my own words to reinforce understanding and provide a valuable reference for the future.
 
 ---
