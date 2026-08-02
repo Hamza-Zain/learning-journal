@@ -18,7 +18,7 @@ Moving to Markdown enables clean `git diff` tracking, easier commit histories, a
 
 ---
 
-## Lessons Learned (Optional)
+## Lessons Learned
 
 - Plain-text formats integrate seamlessly with CMD.
 - Binary formats (`.docx`) hinder Git's version control capabilities like detailed diffs and code reviews.
