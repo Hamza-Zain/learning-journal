@@ -38,7 +38,7 @@ learning-journal/
 ├── LICENSE
 ├── README.md
 └── templates
-    └── learning-journal-entry-template.md
+    └── learning-journal-entry-template-v1.md
 ```
 
 ---
